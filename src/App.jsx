@@ -58,7 +58,7 @@ function checkWinner() {
       updateScore('circle');
       return;
     } else if (checkArray) {
-      setWinner(`<p>Нерешено!</p`);
+      setWinner(`Нерешено!`);
     }
   });
 }
